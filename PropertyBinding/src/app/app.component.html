@@ -1,0 +1,8 @@
+<h1>hello from app</h1>
+interpollation<input type="text" #main name="user name" value={{name}} disabled={{disable}} />
+<button (click)="change('dis')" >dis</button>
+<button (click)="change('enable')" >enable</button>        
+<br>
+binding <input type="text" #main1 name="user name" [value]=name [disabled]=disable/>
+<button (click)="change('dis')" >dis</button>
+<button (click)="change('enable')" >enable</button>

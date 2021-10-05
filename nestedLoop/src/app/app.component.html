@@ -1,0 +1,10 @@
+<h1>show</h1>
+
+<ul *ngFor="let user of users">
+   <li> {{user.name}} </li>
+    <li>{{user.phone}} </li>
+    <ul>
+      <li *ngFor="let accoutes of user.social">{{accoutes}}</li>
+    </ul>
+    
+</ul>

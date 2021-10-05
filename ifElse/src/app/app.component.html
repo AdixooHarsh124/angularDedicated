@@ -1,0 +1,49 @@
+<h1>hello from app</h1>
+
+
+
+<!-- experiment 1 -->
+<!-- <h1 *ngIf="show==='yes'; else elseBlock">
+  code step by step
+</h1>
+
+<ng-template #elseBlock>
+  <h1>else condition</h1>
+</ng-template>
+ -->
+
+<!-- experiment 2 -->
+<!-- <h1 *ngIf="show; then ifBlock else elseBlock">
+</h1>
+<ng-template #ifBlock>
+  <h1>if condition </h1>
+</ng-template>
+<ng-template #elseBlock>
+  <h1>else condition</h1>
+</ng-template>
+<button (click)="change('yes')">click me</button> -->
+
+
+
+<!-- experiment 3 -->
+<!-- <h1 *ngIf="show==='yes'; then ifBlock else elseBlock">
+  code step by step
+</h1>
+<ng-template #ifBlock>
+  <h1>if condition </h1>
+</ng-template>
+<ng-template #elseBlock>
+  <h1>else condition</h1>
+</ng-template> -->
+
+<h1 *ngIf="show; then ifBlock else elseBlock">
+</h1>
+<ng-template #ifBlock>
+  <h1> hii from if</h1>
+</ng-template>
+<ng-template #elseBlock>
+  <h1>welcom</h1>
+</ng-template>
+<button (click)="change('use')">click me</button>
+
+
